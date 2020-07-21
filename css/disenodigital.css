@@ -1,6 +1,6 @@
 /*Background tamaño, no repetir, responsivo, expandir*/
 body{
-    background-image: url(../img/);
+    background-image: url(../img/naranja.jpg);
     background-size: 100rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ header label{
 /*Cuando sobre pasa el mouse cambia de color el background del icono*/
 header label:hover{
     cursor: pointer;
-    background: #2ec7d6;
+    background: #f7ddb8;
 }
 
 /*Modificación del ancho para el menú*/
@@ -57,7 +57,7 @@ header label:hover{
 }
 
 .logo p a:hover{
-    color: #2ec7d6;
+    color: #f7ddb8;
 }
 
 /*Esto es para que el menú sea responsivo*/
@@ -81,6 +81,7 @@ header label:hover{
     color: black;
     font-size: 13px;
     text-decoration: none;
+    /*tranforma el texto en mayúsculas*/
     text-transform: uppercase;
     padding: 10px 20px;
     font-weight: bold;
@@ -89,7 +90,7 @@ header label:hover{
 
 /*Cuando el cursor del mouse pasa sobre el menú cambia de color*/
 nav ul li a:hover{
-    color: #2ec7d6;
+    color: #f7ddb8;
 }
 /*Descargar la fuente*/
 @font-face{
@@ -108,7 +109,7 @@ nav ul li a:hover{
     /*Cuando es responsivo quita los menú*/
     .menu{
         position: absolute;
-        background: rgb(63, 7, 63);
+        background: rgb(243, 121, 112);
         width: 80%;
         margin-left: -100%;
         transition: all 0.5s;
@@ -131,6 +132,82 @@ nav ul li a:hover{
 
 }
 
-
 /*Final de estilos para el MENÚ*/
 
+/*******/
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*Lo separa unos 20px del menú*/
+#banner{
+    margin-top: 20px;
+}
+
+/*Tamaño de la imagen principal*/
+#banner img{
+    width: 50%;
+    height: 50%;
+}
+
+/*Posición del titulo*/
+#banner .titulo{
+    position: absolute;
+    top: 50%;
+    left: 73.5%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+/*Tamaño, fuente y tipo para el h2 de Diseño Digital*/
+#banner h2{
+    font-size: 4rem;
+    font-family: raleway;
+    /*Pone delgada la fuente*/
+    font-weight: lighter;
+}
+
+/*Acomodo de todo el contenido, con un flex y quede centrado en la web*/
+#blog2 .contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/*Cada articulo esta separado por 80px y pone los textos centrado*/
+#blog2 article{
+    margin: 80px;
+    text-align: center;  
+}
+
+/*Cada articulo contiene una imagen, se le da su tamaño y su máximo de anchura */
+#blog2 img{
+    width: 100%;
+    max-width: 280px;
+    transition: all 0.5s ease;
+   }
+
+   #blog2 img:hover{
+    transform: scale(0.9);
+}
+
+/*Color y fuente para los títulos del contenido*/
+#blog2 article h4{
+    color: white;
+    font-family: raleway;    
+}
+
+/*Fuente, color y maxima anchura para la descripcion de cada título del contenido*/
+#blog2 article p{
+    color: white;
+    font-family: raleway;
+    max-width: 280px;
+}
+
+/*Descargar la fuente*/
+@font-face{
+    font-family: raleway;
+    src: url(../fuentes/Raleway-Regular.ttf);
+    
+}
