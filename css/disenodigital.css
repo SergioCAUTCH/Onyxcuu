@@ -149,8 +149,12 @@ section{
 #banner img{
     width: 50%;
     height: 50%;
+    transition: all 0.5s ease;
 }
-
+/*Animación, reduce el tamaño al pasar el mouse*/
+#banner img:hover{
+    transform: scale(0.9);
+}
 /*Posición del titulo*/
 #banner .titulo{
     position: absolute;
@@ -187,7 +191,7 @@ section{
     max-width: 280px;
     transition: all 0.5s ease;
    }
-
+/*Animación, reduce el tamaño al pasar el mouse*/
    #blog2 img:hover{
     transform: scale(0.9);
 }
