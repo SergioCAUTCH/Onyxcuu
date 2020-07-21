@@ -151,7 +151,7 @@ nav ul li a:hover{
     justify-content: center;
     height: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .contenedorizquierda{
@@ -183,16 +183,7 @@ nav ul li a:hover{
     display: flex;
     flex-flow: column; 
     align-items: center;
-    padding-top: 12.5rem;
-}
-
-.cuadro{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 20vw;
-    max-width: 20vw;
-    border-radius: 10px;
-
+    justify-content: center;
 }
 
 .botonizquierda{
@@ -202,7 +193,16 @@ nav ul li a:hover{
 }   
 
 button{
-    font-size: 1.5vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px 10px rgb(0, 132, 255);
 }
 
 /*Contenedores que van de izquierda a derecha*/
@@ -234,7 +234,7 @@ button{
     display: flex;
     flex-flow: column; 
     align-items: center;
-    padding-top: 12.5rem;
+    justify-content: center;
 }
 
 .textoderecha{
@@ -244,7 +244,7 @@ button{
     justify-content: center;
     height: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .botonderecha{
@@ -255,6 +255,8 @@ button{
 
 /*Formato de imagenes de la pagina*/
 img{
+    margin-left: 2%;
+    margin-right: 2%;
     height: 100%;
     min-width: 35%;
     max-width: 35%;
@@ -267,16 +269,15 @@ img{
 .contactos ul{
     height: 100px;
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
+    padding-top: 2.5rem;
     
 }
 
 .contactos ul li{
     height: 50px;
     width: 50px;
-    margin-right: 10px;
-    align-self: flex-end;
+    margin-right: 0.625rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -284,19 +285,19 @@ img{
 .instagram{
     background-image: url(../iconos/Icono-Instagram.png); 
     filter: invert(100%);
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .facebook{
     background-image: url(../iconos/Icono-Facebook.png);
     filter: invert(100%);
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .whatsapp{
     background-image: url(../iconos/Icono-Whatsapp.png);
     filter: invert(100%);
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .email{
@@ -307,7 +308,7 @@ img{
 .telefono{
     background-image: url(../iconos/Icono-Telefono-2.png);
     filter: invert(100%);
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .ubicacion{
