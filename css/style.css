@@ -146,11 +146,10 @@ nav ul li a:hover{
     justify-content: center;
     height: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 .contenedorizquierda{
-    background-color: white;
     width: 100%;
     height: 37.5rem;
     border-style: solid;
@@ -164,8 +163,8 @@ nav ul li a:hover{
 /*Animacion*/
 @keyframes izquierda{
     from{
-        margin-left: 100%;
-        width: 0%;
+        margin-left: 70%;
+        width: 30%;
         opacity: 0%;
     }
     to{
@@ -173,19 +172,25 @@ nav ul li a:hover{
         width: 100%;
         opacity: 100%;
     }
-}
-
-/*Anuncio de audifonos del primer contenedor*/
-.audifonos{
-    height: 100%;
-    width: 35%;
 } 
 
 .contenedortextoi{
     width: 100%;
+    height: 100%;
     display: flex;
-    flex-flow: column;
-    padding-top: 6.25rem; 
+    flex-flow: column; 
+    align-items: center;
+    padding-top: 12.5rem;
+}
+
+.cuadro{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 20vw;
+    max-width: 20vw;
+    border-radius: 10px;
+
 }
 
 .botonizquierda{
@@ -195,20 +200,17 @@ nav ul li a:hover{
 }   
 
 button{
-    height: 50px;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 /*Contenedores que van de izquierda a derecha*/
 .contenedorderecha{
-    background-color: white;
     width: 100%;
     height: 37.5rem;
     border-style: solid;
-    box-shadow: 0px 10px 20px 10px;
-    animation-duration: 2s;
-    margin-top: 50px;
     border-radius: 10px;
+    box-shadow: 0px 10px 20px 10px;
+    margin-top: 50px;
     animation-duration: 2s;
     animation-name: derecha;
     display: flex;
@@ -217,7 +219,7 @@ button{
 /*Animacion*/
 @keyframes derecha{
     from{
-        width: 0%;
+        width: 50%;
         opacity: 0%;
     }
     to{
@@ -228,9 +230,11 @@ button{
 
 .contenedortextod{
     width: 100%;
+    height: 100%;
     display: flex;
-    flex-flow: column;
-    padding-top: 6.25rem; 
+    flex-flow: column; 
+    align-items: center;
+    padding-top: 12.5rem;
 }
 
 .textoderecha{
@@ -239,7 +243,7 @@ button{
     justify-content: center;
     height: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 .botonderecha{
@@ -250,8 +254,12 @@ button{
 
 /*Formato de imagenes de la pagina*/
 img{
+    height: 100%;
+    min-width: 35%;
+    max-width: 35%;
     box-shadow: black 10px -5px 20px;
     border-radius: 10px;
+    
 }
 
 /*Iconos de contactos*/
