@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    font-family: 'PT Sans', sans-serif;  
+}
+
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/FondoOnyxCuu.jpg);
+    background-size: 120%;
+    background-position: center;
+    z-index: 1;
+    filter: blur(10px);
+}
+
+main{
+    border-radius: 10px;
+    width: 50%;
+    animation-duration: 2s;
+    animation-name: Main;
+    z-index: 2;
+}
+
+@keyframes Main{
+    from{
+        margin-left: 50%;
+        opacity: 0%;
+    }
+    to{
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+main:hover{
+    background-image: none;
+    background-color: black;
+    color: white;
+    box-shadow: 0 25px 60px black;
+    transition: 2s;
+}
+
+main:hover ~ .fondo{
+    filter: blur(10px);
+    transition: 2s;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
