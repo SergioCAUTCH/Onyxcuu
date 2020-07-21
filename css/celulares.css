@@ -187,7 +187,11 @@ section{
 #blog img{
  width: 100%;
  max-width: 280px;
+ transition: all 0.5s ease;
+}
 
+#blog img:hover{
+    transform: scale(0.9);
 }
 
 /*Color y fuente para los títulos del contenido*/
