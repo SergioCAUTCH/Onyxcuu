@@ -7,6 +7,12 @@ body{
     background-size: cover;
 }
 
+#banner{
+    width: 800px;
+    padding: 175px;
+    
+}
+
 /*Inicio de estilos para el MENÚ*/
 
 /*Estilo para el botón responsivo, el none no aparece cuando esta en tamaño de pantalla del PC*/
