@@ -69,7 +69,7 @@ header label:hover{
 }
 
 .logo p a:hover{
-    color: #2ec7d6;
+    color: red;
 }
 
 /*Esto es para que el menú sea responsivo*/
@@ -100,7 +100,7 @@ header label:hover{
 
 /*Cuando el cursor del mouse pasa sobre el menú cambia de color*/
 nav ul li a:hover{
-    color: #2ec7d6;
+    color: red;
 }
 /*Descargar la fuente*/
 @font-face{
@@ -156,7 +156,7 @@ nav ul li a:hover{
 
 .contenedorizquierda{
     width: 100%;
-    height: 37.5rem;
+    height: 40vw;
     border-radius: 10px;
     animation-duration: 1.5s;
     animation-name: izquierda;
@@ -208,7 +208,7 @@ button:hover{
 /*Contenedores que van de izquierda a derecha*/
 .contenedorderecha{
     width: 100%;
-    height: 37.5rem;
+    height: 40vw;
     border-radius: 10px;
     margin-top: 50px;
     animation-duration: 1.5s;
