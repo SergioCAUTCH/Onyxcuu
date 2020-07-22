@@ -333,3 +333,15 @@ img{
     background-image: url(../iconos/Icono-Ubicacion.png);
     filter: invert(100%);
 }
+
+/*Personalizacion de la barra deslizante*/
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 5px;
+    animation-name: colorfull;
+}
