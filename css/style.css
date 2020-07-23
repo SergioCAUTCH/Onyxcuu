@@ -285,53 +285,21 @@ img{
 /*pie de pagina*/
 /*Iconos de contactos*/
 .contactos ul{
-    height: 100px;
     display: flex;
+    justify-content: center;
     list-style-type: none;
     padding-top: 2.5rem;
     
 }
 
-.contactos ul li{
+.contactos ul li a{
     height: 50px;
     width: 50px;
-    margin-right: 0.625rem;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.instagram{
-    background-image: url(../iconos/Icono-Instagram.png); 
+.iconos{
     filter: invert(100%);
-    border-radius: 0.625rem;
-}
-
-.facebook{
-    background-image: url(../iconos/Icono-Facebook.png);
-    filter: invert(100%);
-    border-radius: 0.625rem;
-}
-
-.whatsapp{
-    background-image: url(../iconos/Icono-Whatsapp.png);
-    filter: invert(100%);
-    border-radius: 0.625rem;
-}
-
-.email{
-    background-image: url(../iconos/Icono-Email.png);
-    filter: invert(100%);
-}
-
-.telefono{
-    background-image: url(../iconos/Icono-Telefono-2.png);
-    filter: invert(100%);
-    border-radius: 0.625rem;
-}
-
-.ubicacion{
-    background-image: url(../iconos/Icono-Ubicacion.png);
-    filter: invert(100%);
+    width: 200px;
 }
 
 /*Personalizacion de la barra deslizante*/
@@ -344,4 +312,9 @@ body::-webkit-scrollbar-thumb{
     background-color: white;
     border-radius: 5px;
     animation-name: colorfull;
+}
+
+.Botonsaber{
+    text-decoration: none;
+    color: white;
 }
