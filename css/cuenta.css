@@ -98,3 +98,15 @@ p{
 .linkinicio:hover{
     color: cadetblue;
 }
+
+/*Personalizacion de la barra deslizante*/
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 5px;
+    animation-name: colorfull;
+}

@@ -215,3 +215,15 @@ section{
     src: url(../fuentes/Raleway-Regular.ttf);
     
 }
+
+/*Personalizacion de la barra deslizante*/
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5px;
+    animation-name: colorfull;
+}

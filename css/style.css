@@ -341,7 +341,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: blue;
+    background-color: white;
     border-radius: 5px;
     animation-name: colorfull;
 }

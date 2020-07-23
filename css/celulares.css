@@ -220,3 +220,14 @@ section{
     
 }
 
+/*Personalizacion de la barra deslizante*/
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(182, 56, 255);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    animation-name: colorfull;
+}
