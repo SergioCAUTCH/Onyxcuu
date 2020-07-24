@@ -286,7 +286,6 @@ img{
 /*Iconos de contactos*/
 .contactos ul{
     display: flex;
-    justify-content: center;
     list-style-type: none;
     padding-top: 2.5rem;
     
@@ -300,6 +299,7 @@ img{
 .iconos{
     filter: invert(100%);
     width: 200px;
+    border-radius: 10px;
 }
 
 /*Personalizacion de la barra deslizante*/
