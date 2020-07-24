@@ -202,6 +202,7 @@ section{
  max-width: 280px;
  transition: all 0.5s ease;
  border-radius: 10px;
+ display: flex;
 }
 
 
@@ -213,6 +214,22 @@ section{
 #blog article h4{
     color: white;
     font-family: raleway;    
+}
+
+#blog article button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    transition: all 0.5s ease;
+}
+
+#blog article button:hover{
+    transform: scale(0.9);
+}
+
+#blog article button a{
+    text-decoration: none;
+    font-size: 15px;
 }
 
 /*Fuente, color y maxima anchura para la descripcion de cada título del contenido*/
