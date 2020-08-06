@@ -20,8 +20,12 @@ body{
 }
 
 main{
-    border-radius: 10px;
     width: 50%;
+    z-index: 2;
+}
+
+.style{
+    border-radius: 10px;
     animation-duration: 2s;
     animation-name: Main;
     z-index: 2;
@@ -29,16 +33,18 @@ main{
 
 @keyframes Main{
     from{
-        margin-left: 50%;
+        margin-left: 40%;
         opacity: 0%;
+        width: 100%;
     }
     to{
         margin-left: 0%;
         opacity: 100%;
+        width: 100%;
     }
 }
 
-main:hover{
+.style:hover{
     background-image: none;
     background-color: black;
     color: white;
@@ -46,7 +52,7 @@ main:hover{
     transition: 2s;
 }
 
-main:hover ~ .fondo{
+.style:hover ~ .fondo{
     filter: blur(10px);
     transition: 2s;
 }
@@ -59,6 +65,21 @@ h1{
 p{
     text-align: center;
     font-size: 30px;
+}
+
+header{
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    font-size: 2vh;
+    border-radius: 10px;
+    background-color: black;
 }
 
 /*Personalizacion de la barra deslizante*/
